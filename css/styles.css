@@ -585,20 +585,3 @@
   right: 10px;
 }
 
-.container #produ_espec #categ {
-  position: absolute !important;
-  width: 150px !important;
-  height: 27px !important;
-  right: 50px !important; /* Mueve el elemento 50px desde el borde derecho del contenedor */
-  top: 90px !important;
-  display: flex !important;
-  justify-content: flex-end !important; /* Alinea el contenido al final del contenedor flex */
-  align-items: center !important; /* Alinea verticalmente */
-  font-family: 'Verdana' !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  font-size: 30px !important;
-  line-height: 36px !important;
-  z-index: 1 !important;
-  color: rgba(0, 0, 0, 0.55) !important;
-}
