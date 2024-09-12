@@ -529,43 +529,43 @@
 
 /*Estilo para el carrusel, a editar*/
 .carousel {
-  position: relative;
-  width: 100%;
-  max-width: 600px; /* Ajusta según sea necesario */
-  margin: auto;
-  overflow: hidden;
-  z-index: 0; /* Asegura que el carrusel esté detrás del h1 */
-  margin-top: 100px; /* Ajusta el margen superior para posicionar el carrusel debajo del h1 */
+  position: relative !important;
+  width: 100% !important;
+  max-width: 600px !important; /* Ajusta según sea necesario */
+  margin: auto !important;
+  overflow: hidden !important;
+  z-index: 0 !important; /* Asegura que el carrusel esté detrás del h1 */
+  margin-top: 100px !important; /* Ajusta el margen superior para posicionar el carrusel debajo del h1 */
 }
 
 .carousel-images {
-  display: flex;
-  transition: transform 0.5s ease;
+  display: flex !important;
+  transition: transform 0.5s ease !important;
 }
 
 .carousel-images img {
-  width: 100%;
-  flex-shrink: 0;
+  width: 100% !important;
+  flex-shrink: 0 !important;
 }
 
 .carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10; /* Asegura que los botones estén encima de las imágenes */
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px !important;
+  cursor: pointer !important;
+  z-index: 10 !important; /* Asegura que los botones estén encima de las imágenes */
 }
 
 .carousel-button.prev {
-  left: 10px;
+  left: 10px !important;
 }
 
 .carousel-button.next {
-  right: 10px;
+  right: 10px !important;
 }
 
 .container #produ_espec #categ {
