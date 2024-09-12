@@ -245,24 +245,22 @@
 
   /*INFOPRODUCT*/
 
-  #categ #produ_espec {
-
+  .container #produ-espec #categ {
     position: absolute;
-      width: 150px;
-      height: 27px;
-      right: 50px; /* Mueve el elemento 10px desde el borde derecho del contenedor */
-      top: 90px;
-      display: flex;              
-      justify-content: flex-end; /* Alinea el contenido al final del contenedor flex */
-      align-items: center; /* Alinea verticalmente */
-      font-family: 'Verdana';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 30px;
-      line-height: 36px;
-      z-index: 1;
-      color: rgba(0, 0, 0, 0.55);
-  
+    width: 150px;
+    height: 27px;
+    right: 50px; /* Mueve el elemento 50px desde el borde derecho del contenedor */
+    top: 90px;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido al final del contenedor flex */
+    align-items: center; /* Alinea verticalmente */
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.55);
   }
 }
 /*FIN ESTANDAR*/
