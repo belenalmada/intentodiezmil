@@ -529,6 +529,7 @@
 
 /*quiero morir*/
 
+/*Estilo para el carrusel, a editar*/
 .carousel {
   position: relative;
   width: 100%;
@@ -559,22 +560,12 @@
   z-index: 10; /* Asegura que los botones estén encima de las imágenes */
 }
 
-/* Contenedor principal del carrusel */
-.carousel-container {
-  position: relative;
-  width: 804px;
-  height: 353px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-
 .carousel-button.prev {
-  left: 5px; /* Ajustar para que esté más cerca del borde del carrusel */
+  left: 10px;
 }
 
 .carousel-button.next {
-  right: 5px; /* Ajustar para que esté más cerca del borde del carrusel */
+  right: 10px;
 }
 
 /* Ajustes de textos en la página */
