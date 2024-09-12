@@ -613,17 +613,18 @@
 }
 
 
-.container #produ_espec #categ-vendidos {
-  /* 14 vendidos en la esquina inferior derecha de la columna */
-  position: absolute;
-  right: 10px; /* Ajusta según el espacio deseado */
-  bottom: 40px; /* Ajusta según el espacio deseado */
-  font-family: 'Verdana';
-  font-style: normal;
-  font-size: 22px;
-  color: rgba(0, 0, 0, 0.55);
-  padding-top: 20%;
+#produ_espec #categ-vendidos {
+   /* Ajusta el margen superior para posicionar el elemento más abajo */
+   margin-top: 60px; /* Ajusta este valor según el espacio necesario */
+   position: absolute;
+   right: 10px; /* Mantén el posicionamiento en la esquina inferior derecha */
+   bottom: 30px; /* Mantén el posicionamiento desde el fondo */
+   font-family: 'Verdana';
+   font-style: normal;
+   font-size: 22px;
+   color: rgba(0, 0, 0, 0.55);
 }
+
 
 #produ_espec {
   position: relative;
@@ -634,11 +635,11 @@
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 20px; /* Espacio superior para separar del segundo párrafo */
+  margin-top: 20px; /* Ajusta este margen para posicionar entre el precio y el carrusel */
+  margin-bottom: 60px; /* Ajusta este margen para separarlo del carrusel */
 }
 
-.container #produ_espec #precio {
-  /* Precio arriba del footer */
+#produ_espec #precio {
   position: absolute;
   bottom: 20px; /* Ajusta según la altura del footer */
   left: 50%;
