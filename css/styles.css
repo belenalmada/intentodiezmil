@@ -648,21 +648,23 @@
   position: relative !important;
 }
 
-/* Ajuste para el enlace "Volver arriba" */
-footer p.float-end a {
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  font-size: 14px;
-  color: #000;
-}
 
-/* Ajuste para la descripción extensa */
 #longDescription {
   margin-top: 30px;
   text-align: center;
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  
+}
+
+#produ_espec p:nth-of-type(4),
+footer p.float-end a {
+  display: inline-block;
+  text-align: right;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; /* Para mantener la alineación entre autos, vendidos y volver arriba */
+  align-items: center;
 }
