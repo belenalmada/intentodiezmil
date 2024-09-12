@@ -531,11 +531,11 @@
 .carousel {
   position: relative !important;
   width: 100% !important;
-  max-width: 800px !important; /* Aumenta el tamaño máximo del carrusel */
-  margin: auto !important;
+  max-width: 700px !important; /* Aumenta el tamaño máximo del carrusel */
+  margin: 0 auto !important;
   overflow: hidden !important;
   z-index: 0 !important;
-  margin-top: 150px !important; /* Ajusta el margen superior para bajar el carrusel más */
+  margin-top: 170px !important; /* Ajusta el margen superior para bajar el carrusel más */
 }
 
 .carousel-images {
@@ -543,7 +543,7 @@
   transition: transform 0.5s ease !important;
   position: relative !important;
   width: 100% !important;
-  max-width: 800px !important; /* Aumenta el tamaño máximo de las imágenes */
+  max-width: 700px !important; /* Aumenta el tamaño máximo de las imágenes */
   margin: auto !important;
   overflow: hidden !important;
   z-index: 0 !important;
