@@ -534,6 +534,8 @@
   max-width: 600px; /* Ajusta según sea necesario */
   margin: auto;
   overflow: hidden;
+  z-index: 0; /* Asegura que el carrusel esté detrás del h1 */
+  margin-top: 100px; /* Ajusta el margen superior para posicionar el carrusel debajo del h1 */
 }
 
 .carousel-images {
@@ -584,20 +586,20 @@
   color: rgba(0, 0, 0, 0.55) !important;
 }
 
-.container #produ_espec h1{
+.container #produ_espec h1 {
   position: absolute !important;
   width: 695px !important;
   height: 64px !important;
-  left: 530px !important;                /* Posiciona el contenedor desde el borde izquierdo */
-  top: 125px !important;              /* Posiciona el contenedor desde la parte superior */
-  display: flex !important;              /* Usamos flex para centrar el texto dentro del div */
-  justify-content: center !important;    /* Centra horizontalmente */
-  align-items: center !important;        /* Centra verticalmente */
+  left: 530px !important; /* Posiciona el h1 desde el borde izquierdo */
+  top: 125px !important;  /* Posiciona el h1 desde la parte superior */
+  display: flex !important; /* Usamos flex para centrar el texto dentro del div */
+  justify-content: center !important; /* Centra horizontalmente */
+  align-items: center !important; /* Centra verticalmente */
   font-family: 'Lucida Console', monospace !important; /* Fuente específica */
-  font-style: normal !important;         /* Sin cursiva */
-  font-weight: 400 !important;           /* Peso de fuente como en Figma */
-  font-size: 64px !important;            /* Tamaño de fuente como en Figma */
-  line-height: 64px !important;          /* Alineado con la altura de la caja */
-  color: #000000 !important;             /* Color del texto */
-  z-index: 1 !important;       
+  font-style: normal !important; /* Sin cursiva */
+  font-weight: 400 !important; /* Peso de fuente */
+  font-size: 64px !important; /* Tamaño de fuente */
+  line-height: 64px !important; /* Alineado con la altura de la caja */
+  color: #000000 !important; /* Color del texto */
+  z-index: 1 !important; /* Asegura que el h1 esté encima del carrusel */
 }
