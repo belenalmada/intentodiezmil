@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         <button class="carousel-button next">❯</button>
                     </div>`;
 
-                var info2 = `<p id=descrip-corta">${data.description}</p>
-                             <p id=precio">${data.currency} ${data.cost}</p>
-                             <p id=categ-vendidos">${data.soldCount} vendidos</p>`;
+                var info2 = `<p id="descrip-corta">${data.description}</p>
+                             <p id="precio">${data.currency} ${data.cost}</p>
+                             <p id="categ-vendidos">${data.soldCount} vendidos</p>`;
 
                 // Nueva sección de descripción extensa
                 var longDescription = `<div id="longDescription">
