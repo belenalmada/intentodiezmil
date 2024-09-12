@@ -615,7 +615,7 @@
 .container #produ_espec p:nth-of-type(3) {
   /* Precio arriba del footer */
   position: absolute;
-  bottom: 50px; /* Ajusta según la altura del footer */
+  bottom: 20px; /* Ajusta según la altura del footer */
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Verdana', sans-serif;
@@ -630,7 +630,7 @@
   /* 14 vendidos en la esquina inferior derecha de la columna */
   position: absolute;
   right: 10px; /* Ajusta según el espacio deseado */
-  bottom: 40px; /* Ajusta según el espacio deseado */
+  bottom: 20px; /* Ajusta según el espacio deseado */
   font-family: 'Verdana';
   font-style: normal;
   font-size: 22px;
