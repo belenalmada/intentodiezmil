@@ -631,14 +631,15 @@
   position: static; /* Asegúrate de que no esté posicionado absolutamente si no es necesario */
 }
 
+/* Ajusta la descripción larga */
 #produ_espec #descrip-larga {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 30px; /* Ajusta este margen para posicionar entre el precio y el carrusel */
-  margin-bottom: 60px; /* Ajusta este margen para separarlo del carrusel */
+  margin-top: 30px; /* Ajusta este margen para separar el precio del carrusel */
+  margin-bottom: 60px; /* Ajusta este margen para separar la descripción larga del pie de página */
+  padding-left: 20px; /* Ajusta este padding para mover el texto hacia la derecha */
 }
-
 /* Ajuste para el elemento #precio */
 #produ_espec #precio {
   font-family: 'Verdana', sans-serif;
@@ -651,3 +652,5 @@
   margin-left: auto; /* Empuja el texto hacia la derecha */
   margin-right: 0; /* Ajusta el margen derecho */
 }
+
+
