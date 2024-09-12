@@ -26,12 +26,21 @@ document.addEventListener("DOMContentLoaded", function() {
                              <p>${data.currency} ${data.cost}</p>
                              <p>${data.soldCount} vendidos</p>`;
 
-                document.getElementById("produ_espec").innerHTML = info1 + img + info2;
-                
+                // Nueva sección de descripción extensa
+                var longDescription = `<div id="longDescription">
+                                           <h3>Descripción extensa:</h3>
+                                           <p>${data.longDescription || 'No hay una descripción extensa disponible para este producto.'}</p>
+                                       </div>`;
+
+                // Insertar todo el contenido en produ_espec
+                document.getElementById("produ_espec").innerHTML = info1 + img + info2 + longDescription;
+
+                // Inicializar el carrusel después de cargar las imágenes
                 initializeCarousel();
 
+                // Redireccionar al hacer clic en la categoría
                 document.getElementById("categ").addEventListener('click', function(){
-                    window.location.href = 'products.html'
+                    window.location.href = 'products.html';
                 });
             }
         })
@@ -39,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error('Error:', error);
         });
 
+    // Función para inicializar el carrusel
     function initializeCarousel() {
         const carouselContainer = document.querySelector('#carousel .carousel-images');
         const images = carouselContainer.querySelectorAll('img');
@@ -64,3 +74,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
