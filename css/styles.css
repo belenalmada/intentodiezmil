@@ -582,17 +582,21 @@
   right: 10px;
 }
 
+.container #produ_espec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea todos los elementos hijos a la izquierda */
+  position: relative; /* Necesario para que los elementos posicionados absolutamente se posicionen correctamente */
+}
 
 /* Ajustes de textos en la página */
 .container #produ_espec #categ {
-  right: 50px !important;
-  display: flex !important;
-  justify-content: flex-end !important;
   font-family: 'Verdana' !important;
   font-size: 30px !important;
-  z-index: 1 !important;
   color: rgba(0, 0, 0, 0.55) !important;
+  margin-bottom: 20px; /* Espacio inferior para separación */
 }
+
 
 .container #produ_espec h1 {
   font-family: 'Lucida Console', monospace !important;
@@ -613,15 +617,14 @@
 }
 
 
-#produ_espec #categ-vendidos {
-   /* Ajusta el margen superior para posicionar el elemento más abajo */
-   margin-top: 80px; /* Ajusta este valor según el espacio necesario */
-   position: absolute;
-   right: 10px; /* Mantén el posicionamiento en la esquina inferior derecha */
-   font-family: 'Verdana';
-   font-style: normal;
-   font-size: 22px;
-   color: rgba(0, 0, 0, 0.55);
+.container #produ_espec #categ-vendidos {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.55);
+  margin-top: 0; /* Ajusta según el espacio necesario entre #categ y #categ-vendidos */
+  margin-left: 0; /* Alinea el texto a la izquierda */
+  position: static; /* Asegúrate de que no esté posicionado absolutamente si no es necesario */
 }
 
 #produ_espec #descrip-larga {
@@ -633,8 +636,6 @@
 }
 
 #produ_espec #precio {
-  left: 50%;
-  transform: translateX(-50%);
   font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -643,6 +644,4 @@
   color: #000000;
   margin-top: 80px;
 }
-
-
 
