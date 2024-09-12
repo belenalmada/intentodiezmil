@@ -628,7 +628,8 @@
 
 #produ_espec p:nth-of-type(4) {
   /* 14 vendidos en la esquina inferior derecha de la columna */
-  right: 0; /* Ajusta según el espacio deseado */
+  position: absolute;
+  right: 10px; /* Ajusta según el espacio deseado */
   bottom: 40px; /* Ajusta según el espacio deseado */
   font-family: 'Verdana';
   font-style: normal;
@@ -638,15 +639,15 @@
 }
 
 #produ_espec {
-  position: relative !important;
+  position: relative;
 }
 
 
 #longDescription {
-  margin-top: 30px;
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
+  margin-top: 20px; /* Espacio superior para separar del segundo párrafo */
 }
 
 #produ_espec p:nth-of-type(4),
@@ -660,3 +661,8 @@ footer {
   justify-content: space-between; /* Para mantener la alineación entre autos, vendidos y volver arriba */
   align-items: center;
 }
+
+.container #produ_espec p:nth-of-type(2) {
+  margin-bottom: 20px; /* Añade espacio debajo del segundo párrafo */
+}
+
