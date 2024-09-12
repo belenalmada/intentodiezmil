@@ -530,12 +530,12 @@
 /*quiero morir*/
 
 /*Estilo para el carrusel, a editar*/
+* Estilo para el carrusel ajustado */
 .carousel {
   position: relative;
   width: 100%;
   max-width: 600px; /* Ajusta según sea necesario */
-  margin: auto;
-  margin-top: 30px; 
+  margin: 50px auto; /* Se baja el carrusel y se centra horizontalmente */
   overflow: hidden;
 }
 
@@ -558,7 +558,7 @@
   border: none;
   padding: 10px;
   cursor: pointer;
-  z-index: 10; /* Asegura que los botones estén encima de las imágenes */
+  z-index: 10;
 }
 
 .carousel-button.prev {
@@ -595,9 +595,11 @@
   z-index: 1 !important;
 }
 
+/* Ajuste del segundo párrafo debajo del carrusel */
 .container #produ_espec p:nth-of-type(2) {
-  position: relative; /* Cambiado de absolute a relative */
-  margin-top: 20px; /* Agregar espacio encima */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  max-width: 600px; /* Coincide con el ancho del carrusel */
+  margin: 20px auto 0; /* Centrado y separación con el carrusel */
   font-family: 'Lucida Console', monospace;
   font-size: 24px;
   color: #000000;
