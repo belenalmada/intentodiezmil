@@ -615,33 +615,24 @@
 
 #produ_espec #categ-vendidos {
    /* Ajusta el margen superior para posicionar el elemento más abajo */
-   margin-top: 60px; /* Ajusta este valor según el espacio necesario */
+   margin-top: 80px; /* Ajusta este valor según el espacio necesario */
    position: absolute;
    right: 10px; /* Mantén el posicionamiento en la esquina inferior derecha */
-   bottom: 30px; /* Mantén el posicionamiento desde el fondo */
    font-family: 'Verdana';
    font-style: normal;
    font-size: 22px;
    color: rgba(0, 0, 0, 0.55);
 }
 
-
-#produ_espec {
-  position: relative;
-}
-
-
 #produ_espec #descrip-larga {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 20px; /* Ajusta este margen para posicionar entre el precio y el carrusel */
+  margin-top: 30px; /* Ajusta este margen para posicionar entre el precio y el carrusel */
   margin-bottom: 60px; /* Ajusta este margen para separarlo del carrusel */
 }
 
 #produ_espec #precio {
-  position: absolute;
-  bottom: 20px; /* Ajusta según la altura del footer */
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Verdana', sans-serif;
@@ -650,6 +641,7 @@
   font-size: 32px;
   line-height: 39px;
   color: #000000;
+  margin-top: 80px;
 }
 
 
