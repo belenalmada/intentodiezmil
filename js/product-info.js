@@ -24,16 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 var info2 = `<p id="descrip-corta">${data.description}</p>
                              <p id="precio">${data.currency} ${data.cost}</p>
-                             <p id="categ-vendidos">${data.soldCount} vendidos</p>`;
+                             <p id="categ-vendidos">${data.soldCount} vendidos</p>
+                             <p id="descrip-larga">${data.longDescription || 'No hay una descripción extensa disponible para este producto.'}
+                             `;
 
-                // Nueva sección de descripción extensa
-                var longDescription = `<div id="longDescription">
-                                           <h3>Descripción extensa:</h3>
-                                           <p>${data.longDescription || 'No hay una descripción extensa disponible para este producto.'}</p>
-                                       </div>`;
 
                 // Insertar todo el contenido en produ_espec
-                document.getElementById("produ_espec").innerHTML = info1 + img + info2 + longDescription;
+                document.getElementById("produ_espec").innerHTML = info1 + img + info2;
 
                 // Inicializar el carrusel después de cargar las imágenes
                 initializeCarousel();

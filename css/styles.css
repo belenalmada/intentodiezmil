@@ -631,7 +631,7 @@
 }
 
 
-#longDescription {
+#produ_espec #descrip-larga {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -652,12 +652,5 @@
   color: #000000;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between; /* Para mantener la alineación entre autos, vendidos y volver arriba */
-  align-items: center;
-  padding: 10px;
-  margin-top: 10px;
-}
 
 
