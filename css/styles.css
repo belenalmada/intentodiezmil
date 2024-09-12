@@ -618,35 +618,28 @@
 }
 
 .container #produ_espec p:nth-of-type(3) {
+  /* Precio arriba del footer */
   position: absolute;
-  width: 212px;
-  height: 39px;
-  bottom: 10px; /* Ajusta este valor según el espacio que quieras desde el fondo del contenedor */
+  bottom: 50px; /* Ajusta según la altura del footer */
   left: 50%;
   transform: translateX(-50%);
-  
   font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  
   color: #000000;
 }
 
-
 .container #produ_espec p:nth-of-type(4) {
-  /* 14 vendidos */
-
+  /* 14 vendidos en la esquina inferior derecha de la columna */
   position: absolute;
-  width: 211px;
-  height: 27px;
-  left: 1203px; /* Alinea con el tercer párrafo */
-  top: 961px; /* Ajusta 40px o el valor que necesites para el espacio entre ellos */
+  right: 10px; /* Ajusta según el espacio deseado */
+  bottom: 10px; /* Ajusta según el espacio deseado */
   font-family: 'Verdana';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(0, 0, 0, 0.55);
 }
