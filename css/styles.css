@@ -535,6 +535,7 @@
   width: 100%;
   max-width: 600px; /* Ajusta según sea necesario */
   margin: auto;
+  margin-top: 30px; 
   overflow: hidden;
 }
 
