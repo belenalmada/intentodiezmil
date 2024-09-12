@@ -612,3 +612,23 @@
   color: #000000 !important; /* Color del texto */
   z-index: 1 !important; /* Asegura que el h1 esté encima del carrusel */
 }
+
+.container #produ_espec p:first-of-type {
+
+  /* Generación 2019 Variedad de colores Motor 1.0, ideal para ciudad */
+
+  position: absolute !important;
+  width: 209px !important;
+  height: 243px !important;
+  left: 103px !important;
+  top: 325px !important;
+
+  font-family: 'Lucida Console' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+
+  color: #000000;
+
+}
