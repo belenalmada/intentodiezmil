@@ -529,28 +529,35 @@
 
 /*quiero morir*/
 
+/* Achicar el carrusel */
 .carousel {
   position: relative !important;
-  width: 100% !important;
-  max-width: 800px !important; /* Ajuste del tamaño del carrusel */
+  width: 80% !important; /* Reduce el tamaño del carrusel a un 80% del ancho del contenedor */
+  max-width: 600px !important; /* Ajusta el tamaño máximo del carrusel */
   margin: 0 auto !important;
   overflow: hidden !important;
   z-index: 0 !important;
-  margin-top: 200px !important; /* Ajusta el margen superior */
-  padding-left: 20px !important;
+  margin-top: 50px !important; /* Ajusta el margen superior */
+  padding-left: 0 !important; /* Eliminar el padding a la izquierda */
 }
 
+/* Corregir las imágenes dentro del carrusel */
 .carousel-images {
   display: flex !important;
   transition: transform 0.5s ease !important;
+  margin-left: 0 !important; /* Eliminar cualquier margen no deseado */
 }
 
 .carousel-images img {
-  width: 100% !important; /* Mantiene el ancho al 100% */
+  width: 100% !important; /* Mantener el ancho de las imágenes al 100% */
+  height: auto !important; /* Mantener las proporciones originales de la imagen */
   flex-shrink: 0 !important;
-  object-fit: cover; /* Asegura que la imagen cubra el área */
+  object-fit: cover !important; /* Asegura que la imagen se ajuste al área del carrusel */
+  border-radius: 10px !important; /* Ajustar si deseas bordes redondeados */
+  margin: 0 !important; /* Eliminar márgenes para ajustar mejor las imágenes */
 }
 
+/* Ajustar las flechas de navegación */
 .carousel-button {
   position: absolute;
   top: 50%;
@@ -564,11 +571,11 @@
 }
 
 .carousel-button.prev {
-  left: 10px;
+  left: 5px; /* Ajustar para que esté más cerca del borde del carrusel */
 }
 
 .carousel-button.next {
-  right: 10px;
+  right: 5px; /* Ajustar para que esté más cerca del borde del carrusel */
 }
 
 /* Ajustes de textos en la página */
