@@ -597,7 +597,7 @@
   z-index: 1 !important;
 }
 
-.container #produ_espec p:first-of-type {
+.container #produ_espec p:nth-of-type(2) {
   position: absolute !important;
   left: 103px !important;
   top: 325px !important;
