@@ -585,8 +585,10 @@
 .container #produ_espec {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Alinea todos los elementos hijos a la izquierda */
-  position: relative; /* Necesario para que los elementos posicionados absolutamente se posicionen correctamente */
+  align-items: flex-end; /* Alinea todos los elementos hijos a la derecha */
+  position: relative;
+  margin-right: 0; /* Asegúrate de que no haya margen extra a la derecha */
+  padding-right: 0; /* Asegúrate de que no haya padding extra a la derecha */
 }
 
 /* Ajustes de textos en la página */
@@ -617,13 +619,15 @@
 }
 
 
+/* Ajuste para el elemento #categ-vendidos */
 .container #produ_espec #categ-vendidos {
   font-family: 'Verdana';
   font-style: normal;
   font-size: 22px;
   color: rgba(0, 0, 0, 0.55);
   margin-top: 0; /* Ajusta según el espacio necesario entre #categ y #categ-vendidos */
-  margin-left: 0; /* Alinea el texto a la izquierda */
+  margin-left: auto; /* Empuja el texto hacia la derecha */
+  margin-right: 0; /* Ajusta el margen derecho */
   position: static; /* Asegúrate de que no esté posicionado absolutamente si no es necesario */
 }
 
@@ -635,6 +639,7 @@
   margin-bottom: 60px; /* Ajusta este margen para separarlo del carrusel */
 }
 
+/* Ajuste para el elemento #precio */
 #produ_espec #precio {
   font-family: 'Verdana', sans-serif;
   font-style: normal;
@@ -643,5 +648,6 @@
   line-height: 39px;
   color: #000000;
   margin-top: 80px;
+  margin-left: auto; /* Empuja el texto hacia la derecha */
+  margin-right: 0; /* Ajusta el margen derecho */
 }
-
