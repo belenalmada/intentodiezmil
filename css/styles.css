@@ -529,15 +529,21 @@
 
 /*quiero morir*/
 
-/*Estilo para el carrusel, a editar*/
+/* Ajusta el margen superior para situar el carrusel debajo del elemento con el ID chevrolet-onyx-joy */
+#chevrolet-onyx-joy + .carousel {
+  margin-top: 20px; /* Ajusta este valor según el espacio que quieras */
+}
+
+/* Asegúrate de que el carrusel esté centrado y que no se desajuste */
 .carousel {
   position: relative;
   width: 100%;
   max-width: 600px; /* Ajusta según sea necesario */
-  margin: auto;
+  margin: 20px auto; /* Centra el carrusel y da un margen superior */
   overflow: hidden;
 }
 
+/* Asegura que las imágenes no se desajusten */
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease;
@@ -548,6 +554,7 @@
   flex-shrink: 0;
 }
 
+/* Botones del carrusel */
 .carousel-button {
   position: absolute;
   top: 50%;
@@ -603,8 +610,4 @@
   font-family: 'Lucida Console', monospace;
   font-size: 24px;
   color: #000000;
-}
-
-#chevrolet-onyx-joy + .carousel {
-  margin-top: 20px; /* Ajusta este valor según el espacio que quieras */
 }
