@@ -598,10 +598,9 @@
 }
 
 .container #produ_espec p:nth-of-type(2) {
-  position: absolute !important;
-  left: 103px !important;
-  top: 325px !important;
-  font-family: 'Lucida Console' !important;
-  font-size: 24px !important;
-  color: #000000 !important;
+  position: relative; /* Cambiado de absolute a relative */
+  margin-top: 20px; /* Agregar espacio encima */
+  font-family: 'Lucida Console', monospace;
+  font-size: 24px;
+  color: #000000;
 }
