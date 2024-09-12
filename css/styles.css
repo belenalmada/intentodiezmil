@@ -535,7 +535,8 @@
   margin: 0 auto !important;
   overflow: hidden !important;
   z-index: 0 !important;
-  margin-top: 170px !important; /* Ajusta el margen superior para bajar el carrusel más */
+  margin-top: 200px !important;
+  padding-left: 20px !important; /* Ajusta el margen superior para bajar el carrusel más */
 }
 
 .carousel-images {
