@@ -541,6 +541,13 @@
 .carousel-images {
   display: flex !important;
   transition: transform 0.5s ease !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 600px !important; /* Ajusta según sea necesario */
+  margin: auto !important;
+  overflow: hidden !important;
+  z-index: 0 !important; /* Asegura que el carrusel esté detrás del h1 */
+  margin-top: 100px !important; /* Ajusta el margen superior para posicionar el carrusel debajo del h1 */
 }
 
 .carousel-images img {
