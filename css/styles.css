@@ -604,3 +604,7 @@
   font-size: 24px;
   color: #000000;
 }
+
+#chevrolet-onyx-joy + .carousel {
+  margin-top: 20px; /* Ajusta este valor según el espacio que quieras */
+}
