@@ -583,3 +583,21 @@
   z-index: 1 !important;
   color: rgba(0, 0, 0, 0.55) !important;
 }
+
+.container #produ_espec h1{
+  position: absolute !important;
+  width: 695px !important;
+  height: 64px !important;
+  left: 530px !important;                /* Posiciona el contenedor desde el borde izquierdo */
+  top: 125px !important;              /* Posiciona el contenedor desde la parte superior */
+  display: flex !important;              /* Usamos flex para centrar el texto dentro del div */
+  justify-content: center !important;    /* Centra horizontalmente */
+  align-items: center !important;        /* Centra verticalmente */
+  font-family: 'Lucida Console', monospace !important; /* Fuente específica */
+  font-style: normal !important;         /* Sin cursiva */
+  font-weight: 400 !important;           /* Peso de fuente como en Figma */
+  font-size: 64px !important;            /* Tamaño de fuente como en Figma */
+  line-height: 64px !important;          /* Alineado con la altura de la caja */
+  color: #000000 !important;             /* Color del texto */
+  z-index: 1 !important;       
+}
