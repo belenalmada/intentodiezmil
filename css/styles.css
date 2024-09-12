@@ -542,12 +542,6 @@
 .carousel-images {
   display: flex !important;
   transition: transform 0.5s ease !important;
-  position: relative !important;
-  width: 100% !important;
-  max-width: 700px !important; /* Aumenta el tamaño máximo de las imágenes */
-  margin: auto !important;
-  overflow: hidden !important;
-  z-index: 0 !important;
 }
 
 .carousel-images img {
