@@ -602,8 +602,8 @@
   margin: 20px auto !important;
 }
 
-/* Ajuste del segundo párrafo debajo del carrusel */
-.container #produ_espec p:nth-of-type(2) {
+/* descripcion corta */
+.container #produ_espec #descrip-corta {
   width: 100%; /* Ocupa todo el ancho del contenedor */
   max-width: 600px; /* Coincide con el ancho del carrusel */
   margin: 20px auto 0; /* Centrado y separación con el carrusel */
@@ -613,7 +613,7 @@
 }
 
 
-#produ_espec p:nth-of-type(4) {
+.container #produ_espec #categ-vendidos {
   /* 14 vendidos en la esquina inferior derecha de la columna */
   position: absolute;
   right: 10px; /* Ajusta según el espacio deseado */
@@ -637,7 +637,7 @@
   margin-top: 20px; /* Espacio superior para separar del segundo párrafo */
 }
 
-.container #produ_espec p:nth-of-type(3) {
+.container #produ_espec #precio {
   /* Precio arriba del footer */
   position: absolute;
   bottom: 20px; /* Ajusta según la altura del footer */
@@ -651,12 +651,6 @@
   color: #000000;
 }
 
-#produ_espec p:nth-of-type(4),
-footer p.float-end a {
-  display: inline-block;
-  text-align: right;
-}
-
 footer {
   display: flex;
   justify-content: space-between; /* Para mantener la alineación entre autos, vendidos y volver arriba */
@@ -665,7 +659,4 @@ footer {
   margin-top: 10px;
 }
 
-.container #produ_espec p:nth-of-type(2) {
-  margin-bottom: 20px; /* Añade espacio debajo del segundo párrafo */
-}
 
