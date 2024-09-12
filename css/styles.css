@@ -529,6 +529,12 @@
 
 /*quiero morir*/
 
+.container {
+  margin: 0 auto !important;
+  padding: 20px !important; /* O el valor necesario para evitar que el contenido quede pegado al borde */
+  width: 80% !important; /* Ajusta el ancho del contenedor */
+}
+
 /* Ajusta el margen superior para situar el carrusel debajo del elemento con el ID chevrolet-onyx-joy */
 #chevrolet-onyx-joy + .carousel {
   margin-top: 20px; /* Ajusta este valor según el espacio que quieras */
@@ -539,8 +545,9 @@
   position: relative;
   width: 100%;
   max-width: 600px; /* Ajusta según sea necesario */
-  margin: 35% auto 0; /* Centra el carrusel y da un margen superior */
+  margin: 0 auto; /* Centra el carrusel y da un margen superior */
   overflow: hidden;
+  padding-top: 20px;
 }
 
 /* Asegura que las imágenes no se desajusten */
@@ -593,13 +600,11 @@
 }
 
 .container #produ_espec h1 {
-  position: absolute !important;
-  left: 530px !important;
-  top: 125px !important;
   font-family: 'Lucida Console', monospace !important;
   font-size: 64px !important;
   color: #000000 !important;
-  z-index: 1 !important;
+  text-align:center !important;
+  margin: 20px auto !important;
 }
 
 /* Ajuste del segundo párrafo debajo del carrusel */
@@ -616,7 +621,7 @@
   position: absolute;
   width: 212px;
   height: 39px;
-  bottom: 20px; /* Ajusta este valor según el espacio que quieras desde el fondo del contenedor */
+  bottom: 10px; /* Ajusta este valor según el espacio que quieras desde el fondo del contenedor */
   left: 50%;
   transform: translateX(-50%);
   
@@ -637,7 +642,7 @@
   width: 211px;
   height: 27px;
   left: 1203px; /* Alinea con el tercer párrafo */
-  top: calc(921px + 40px); /* Ajusta 40px o el valor que necesites para el espacio entre ellos */
+  top: 961px; /* Ajusta 40px o el valor que necesites para el espacio entre ellos */
   font-family: 'Verdana';
   font-style: normal;
   font-weight: 400;
